@@ -34,6 +34,7 @@
 }
 
 #links{
+    background-image: linear-gradient(to left, #abecf7, #8dd4e0);   
     display: flex;
     flex-direction: row;
     margin-left: 20%;
@@ -48,7 +49,7 @@
 
 #link{
     display: inline;
-    padding-right:300px ;
+    padding-right: 30px ;
 }
 
 #linkLast{
@@ -68,3 +69,33 @@ a{
     padding-left: 20px;
     padding-right: 20px;
 }
+
+#bod{
+    background: #abecf7;
+}
+
+#vidContainer{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#tableContainer{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#historyTable{
+    width: 100%;
+}
+
+table{
+    table-layout: fixed;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
