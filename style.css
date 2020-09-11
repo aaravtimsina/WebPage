@@ -87,6 +87,7 @@ a{
 
 #historyTable{
     width: 100%;
+    margin-top:25px;
 }
 
 table{
@@ -98,4 +99,9 @@ table, th, td {
     text-align: left;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
+  }
+  #rulesFont{
+      padding-left:20%;
+      padding-right:20%;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
